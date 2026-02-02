@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonBg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Background Color" />
+
+    <Button
+        android:id="@+id/buttonInc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Increase Count" />
+
+    <Button
+        android:id="@+id/buttonDec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decrease Count" />
+
+    <Button
+        android:id="@+id/buttonSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Text Size" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI Calculator"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/etWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Weight (kg)"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Height (meters)"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate BMI" />
+
+    <TextView
+        android:id="@+id/tvBmiResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature Converter"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/etCelsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Temperature in Celsius"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert to Fahrenheit" />
+
+    <TextView
+        android:id="@+id/tvTempResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
